@@ -29,7 +29,7 @@ import {MatDialogRef} from "@angular/material";
 })
 export class ImportDialogComponent implements OnInit {
 
-    @ViewChild('fileInput') el: ElementRef;
+    @ViewChild('fileInput', { static: true }) el: ElementRef;
 
     constructor(public dialogRef: MatDialogRef<DrawingDialogComponent>) {
     }
