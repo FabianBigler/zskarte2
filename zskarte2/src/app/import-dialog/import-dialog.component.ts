@@ -20,7 +20,7 @@
 
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {DrawingDialogComponent} from "../drawing-dialog/drawing-dialog.component";
-import {MatDialogRef} from "@angular/material";
+import { MatDialogRef } from "@angular/material/dialog";
 
 @Component({
     selector: 'app-import-dialog',

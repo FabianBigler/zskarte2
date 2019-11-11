@@ -20,9 +20,8 @@
 
 import {Component, OnInit, Inject, Output, EventEmitter} from '@angular/core';
 
-import {
-    MatDialog, MatDialogRef, MAT_DIALOG_DATA, MatTableDataSource
-} from '@angular/material';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatTableDataSource } from '@angular/material/table';
 import {HttpClient} from '@angular/common/http';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
